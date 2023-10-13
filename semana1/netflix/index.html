@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/estilos.css" />
+    <title>TEC UTPL +</title>
+  </head>
+  <body>
+    <header>
+      <div class="contenedor">
+        <h2 class="logotipo">TEC UTPL +</h2>
+        <nav>
+          <a href="" class="activo">Inicio</a>
+          <a href="">Programas</a>
+          <a href="">Películas</a>
+          <a href="">Más Recientes</a>
+          <a href="">Mi lista</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="pelicula-principal">
+        <div class="contenedor">
+            <h3 class="titulo">Interestellar (2014)</h3>
+            <p class="descripcion">
+              Narra las aventuras de un grupo de exploradores que hacen uso de un
+              agujero de gusano recientemente descubierto para superar las
+              limitaciones de los viajes espaciales tripulados y vencer las inmensas
+              distancias que tiene un viaje interestelar.
+            </p>
+            <button role="button" class="boton"><i class="fa-solid fa-play"></i>Reproducir</button>
+            <button role="button" class="boton"><i class="fa-solid fa-circle-info"></i>Más Información</button>
+        </div>
+      </div>
+      <div class="peliculas-recomendadas contenedor" >
+        <div class="contenedor-titulo-controles">
+            <h3>Películas Recomendadas</h3>
+            <div class="indicadores">
+              <button class="activo"></button>
+              <button></button>
+              <button></button>
+            </div>
+
+        </div>
+
+        <div class="contenedor-principal">
+            <button role="button" id="flecha-izquierda" class="flecha-izquierda"><i class="fa-solid fa-angle-left"></i></button>
+            <div class="contenedor-carousel">
+              <div class="carousel">
+                <div class="pelicula">
+                  <a href="https://www.themoviedb.org/movie/157336-interstellar?language=es" target="_blank"><img src="img/1.png" alt="Interestellar"></a>
+                  <a href="https://www.themoviedb.org/movie/286217-the-martian?language=es"target="_blank"><img src="img/2.png" alt="The Martian"></a>
+                  <a href="https://www.themoviedb.org/movie/333339-ready-player-one?language=es"target="_blank"><img src="img/3.png" alt="Ready Player One"></a>
+                  <a href="https://www.themoviedb.org/movie/744-top-gun?language=es"target="_blank"><img src="img/4.png" alt="Top Gun"></a>
+                  <a href="https://www.themoviedb.org/movie/20526-tron-legacy?language=es"target="_blank"><img src="img/5.png" alt="Tron"></a>
+                  <a href="https://www.themoviedb.org/movie/155-the-dark-knight?language=es"target="_blank"><img src="img/6.png" alt="Batman"></a>
+                  <a href="https://www.themoviedb.org/movie/241554-run-all-night?language=es"target="_blank"><img src="img/7.png" alt="Una noche para sobrevivir"></a>
+                </div>
+              </div>
+            </div>
+            <button role="button" id="flecha-derecha" class="flecha-derecha"><i class="fa-solid fa-angle-right"></i></button>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="https://kit.fontawesome.com/e40eb23e61.js" crossorigin="anonymous"></script>
+</html>
