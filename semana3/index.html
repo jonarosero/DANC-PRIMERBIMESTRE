@@ -1,0 +1,223 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEC UTPL HÉROES</title>
+    <link rel="stylesheet" href="main.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+</head>
+<body>
+
+    <div class="main-wrapper">
+        <div class="app">
+
+            <!-- Encabezado -->
+            <div class="app-header">
+                <h2 class="app-header-title"> Super <span>Héroe</span></h2>
+                <form class="app-header-search">
+                    <input type="text" class="form-control" placeholder="Busca tu super héroe aquí..." name="search">
+                    <button type="submit" class="search-btn">
+                        <i class="fas fa-search"></i>
+                    </button>
+                    <div class="search-list" id="search-list">
+                        <div class="search-list-item">
+                            <img src="https://www.superherodb.com/pictures2/portraits/10/100/639.jpg" alt="Imágen de busqueda super héroe">
+                            <p>Batman</p>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!-- Fin de Encabezado -->
+
+            <!-- Cuerpo -->
+
+            <div class="app-body">
+                <div class="app-body-content">
+                    <!-- Imágen del Héroe -->
+                    <div class="app-body-content-thumbnail">
+                        <img src="https://www.superherodb.com/pictures2/portraits/10/100/639.jpg" alt="Imágen de super héroe">
+                    </div>
+                    <!-- Fin de Imágen del Héroe -->
+
+                    <!-- Información del Héroe -->
+                    <div class="app-body-content-list">
+                        <div class="name">Batman</div>
+
+                        <!-- Menús-->
+                        <div class="app-body-tabs-head">
+                            <button type="button" class="tab-head-single active-tab" data-id="1">
+                                <span>Estadísticas</span>
+                            </button>
+                            <button type="button" class="tab-head-single" data-id="2">
+                                <span>Biografía</span>
+                            </button>
+                            <button type="button" class="tab-head-single" data-id="3">
+                                <span>Apariciones</span>
+                            </button>
+                            <button type="button" class="tab-head-single" data-id="4">
+                                <span>Conexiones</span>
+                            </button>
+                        </div>
+                        <!-- Fin de Menús -->
+
+                        <div class="app-body-tabs-body">
+                            <!-- Información de las Estadísticas -->
+                            <ul class="tab-body-single powerstats">
+                                <li>
+                                    <div>
+                                        <i class="fa-solid fa-shield-halved"></i>
+                                        <span>Inteligencia</span>
+                                    </div>
+                                    <span>100</span>
+                                </li>
+                                <li>
+                                    <div>
+                                        <i class="fa-solid fa-shield-halved"></i>
+                                        <span>Fuerza</span>
+                                    </div>
+                                    <span>26</span>
+                                </li>
+                                <li>
+                                    <div>
+                                        <i class="fa-solid fa-shield-halved"></i>
+                                        <span>Velocidad</span>
+                                    </div>
+                                    <span>27</span>
+                                </li>
+                                <li>
+                                    <div>
+                                        <i class="fa-solid fa-shield-halved"></i>
+                                        <span>Dureza</span>
+                                    </div>
+                                    <span>50</span>
+                                </li>
+                                <li>
+                                    <div>
+                                        <i class="fa-solid fa-shield-halved"></i>
+                                        <span>Poder</span>
+                                    </div>
+                                    <span>47</span>
+                                </li>
+                                <li>
+                                    <div>
+                                        <i class="fa-solid fa-shield-halved"></i>
+                                        <span>Combate</span>
+                                    </div>
+                                    <span>100</span>
+                                </li>
+                            </ul>
+                            <!-- Fin de la Información de las Estadísticas -->
+
+                            <!-- Información de la Biografía -->
+                            <ul class="tab-body-single biography">
+                                <li>
+                                    <span>Nombre completo</span>
+                                    <span>Bruce Wayne</span>
+                                </li>
+                                <li>
+                                    <span>Alter Egos</span>
+                                    <span>No tiene otros alter egos</span>
+                                </li>
+                                <li>
+                                    <span>Alias</span>
+                                    <span>El caballero oscuro</span>
+                                </li>
+                                <li>
+                                    <span>Lugar de Nacimiento</span>
+                                    <span>Gotham City</span>
+                                </li>
+                                <li>
+                                    <span>Primera aparición</span>
+                                    <span>Bruce Wayne</span>
+                                </li>
+                                <li>
+                                    <span>Pertenece a</span>
+                                    <span>DC Comics</span>
+                                </li>
+                            </ul>
+                            <!-- Fin de la Información de la Biografía -->
+
+                            <!-- Información de las Apariciones -->
+                            <ul class="tab-body-single appearance">
+                                <li>
+                                    <span>
+                                        <i class="fas fa-star"></i>
+                                        Género
+                                    </span>
+                                    <span>Másculino</span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <i class="fas fa-star"></i>
+                                        Raza
+                                    </span>
+                                    <span>Humano</span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <i class="fas fa-star"></i>
+                                        Altura
+                                    </span>
+                                    <span>5' 10''</span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <i class="fas fa-star"></i>
+                                        Peso
+                                    </span>
+                                    <span>170 lb</span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <i class="fas fa-star"></i>
+                                        Color de Ojos
+                                    </span>
+                                    <span>Azules</span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <i class="fas fa-star"></i>
+                                        Color de Cabello
+                                    </span>
+                                    <span>Castaño</span>
+                                </li>
+                            </ul>
+                            <!-- Fin de la Información de las Apariciones -->
+
+                            <!-- Información de las Conexiones -->
+                            <ul class="tab-body-single connections">
+                                <li>
+                                    <span>Grupos</span>
+                                    <span>Bat Familia, Liga de la Justicia</span>
+                                </li>
+                                <li>
+                                    <span>Relaciones</span>
+                                    <span>Thomas Wayne(padre), Martha Wayne (madre), Damyan Wayne(hijo)</span>
+                                </li>
+                            </ul>
+                            <!-- Fin de la Información de las Conexiones -->
+
+
+                        </div>
+
+                    </div>
+                    <!-- Fin de la Información del Héroe -->
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+    
+</body>
+</html>
