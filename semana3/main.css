@@ -107,7 +107,6 @@ img {
   width: 100%;
   max-height: 400px;
   overflow-y: scroll;
-  display: none;
 }
 
 .search-list::-webkit-scrollbar {
@@ -223,7 +222,7 @@ img {
 
 /* Estadísticas */
 .powerstats{
-    
+    display: none;
 }
 
 .powerstats li{
@@ -346,6 +345,11 @@ img {
     line-height: 1.9;
 }
 
+/* Para hacer aparecer el submenu */
+.show-tab{
+    display: block;
+}
+
 /* Media Query */
 
 @media screen and (max-width: 1200px) {
@@ -408,6 +412,3 @@ img {
     
 }
 
-.show-tab{
-    display: block;
-}
