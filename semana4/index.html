@@ -1,0 +1,44 @@
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>App de Clima UTPL</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <!-- Carta del clima -->
+    <div class="card">
+      <!-- Barra de Busqueda -->
+      <div class="search">
+        <input type="text" class="search-bar" placeholder="Ingresa la ciudad" />
+        <button>
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+
+      <!-- Datos del clima -->
+      <div class="weather">
+        <h2 class="city">Clima en Quito</h2>
+        <h1 class="temp">12°C</h1>
+        <div class="flex">
+          <img
+            src="https://openweathermap.org/img/wn/03d.png"
+            alt="imagen del clima"
+            class="icon"
+          />
+          <div class="description">Nublado</div>
+        </div>
+        <div class="humidity">Humedad al 50%</div>
+        <div class="wind">Velocidad del Viento: 15.5 km/h</div>
+      </div>
+    </div>
+  </body>
+</html>
