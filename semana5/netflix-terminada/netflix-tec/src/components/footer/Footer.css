@@ -1,0 +1,25 @@
+.footer{
+    align-items: center;
+    margin-right: 4rem;
+    margin-left: 4rem;
+}
+
+.footer, .footer a{
+    color: #999;
+    font-size: 0.9rem;
+}
+
+.footer p {
+    margin-bottom: 1.5rem;
+}
+
+.footer .footer-cols{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+}
+
+.footer .footer-cols li{
+    line-height: 1.9;
+}
+
